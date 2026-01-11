@@ -1,6 +1,6 @@
 {
   "name": "Gammu SMS Gateway Add-ons",
-  "url": "https://github.com/TVŮJ_UŽIVATEL/ha-addon-gammu-sms-gateway",
+  "url": "https://github.com/rychlymartin82-debug/ha-addon-gammu-sms-gateway",
   "maintainer": "Martin",
   "addons": {
     "gammu_sms_gateway": {
@@ -9,3 +9,4 @@
     }
   }
 }
+
