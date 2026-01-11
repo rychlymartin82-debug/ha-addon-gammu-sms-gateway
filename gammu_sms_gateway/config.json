@@ -1,6 +1,6 @@
 {
   "name": "Gammu SMS Gateway",
-  "version": "latest",
+  "version": "1.0.0",
   "slug": "gammu_sms_gateway",
   "description": "Plnohodnotná SMS brána s nouzovým režimem a restartem přes SMS.",
   "arch": ["aarch64"],
