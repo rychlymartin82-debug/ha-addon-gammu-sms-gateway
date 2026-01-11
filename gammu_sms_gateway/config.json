@@ -4,7 +4,7 @@
   "slug": "gammu_sms_gateway",
   "description": "Plnohodnotná SMS brána s nouzovým režimem a restartem přes SMS.",
   "arch": ["aarch64"],
-  "image": "ghcr.io/rychlymartin82-debug/gammu_sms_gateway-{arch}:latest",
+  "image": "ghcr.io/rychlymartin82-debug/gammu_sms_gateway-aarch64:latest",
   "startup": "services",
   "boot": "auto",
   "init": false,
