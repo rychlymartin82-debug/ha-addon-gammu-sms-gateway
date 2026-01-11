@@ -1,5 +1,8 @@
 {
   "name": "Gammu SMS Gateway Add-ons",
   "url": "https://github.com/rychlymartin82-debug/ha-addon-gammu-sms-gateway",
-  "maintainer": "Martin"
+  "maintainer": "Martin",
+  "addons": [
+    "gammu_sms_gateway"
+  ]
 }
