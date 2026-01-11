@@ -12,7 +12,7 @@ RUN apk add --no-cache \
     bash
 
 # Instalace Python knihoven
-RUN pip3 install --no-cache-dir requests
+RUN pip3 install --break-system-packages --no-cache-dir requests
 
 # Vytvoření pracovního adresáře
 WORKDIR /app
@@ -28,3 +28,4 @@ RUN chmod +x /app/run.sh
 
 # Start addonu
 CMD ["/app/run.sh"]
+
