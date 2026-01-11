@@ -1,0 +1,41 @@
+{
+  "name": "Gammu SMS Gateway",
+  "version": "3.0.0",
+  "slug": "gammu_sms_gateway",
+  "description": "Plnohodnotná SMS brána s nouzovým režimem a restartem přes SMS.",
+  "arch": ["aarch64"],
+  "startup": "services",
+  "boot": "auto",
+  "init": false,
+  "host_network": false,
+  "homeassistant_api": true,
+  "uart": true,
+  "devices": [
+    "/dev/ttyUSB0",
+    "/dev/ttyUSB1",
+    "/dev/ttyUSB2",
+    "/dev/ttyACM0"
+  ],
+  "options": {
+    "device": "/dev/ttyUSB0",
+    "primary_number": "+420722447446",
+    "allowed_numbers": [
+      "+420722447446"
+    ],
+    "restart_command": "restart",
+    "reboot_command": "sms#reboot",
+    "watchdog_interval": 30,
+    "ping_host": "8.8.8.8",
+    "loglevel": "INFO"
+  },
+  "schema": {
+    "device": "str",
+    "primary_number": "str",
+    "allowed_numbers": ["str"],
+    "restart_command": "str",
+    "reboot_command": "str",
+    "watchdog_interval": "int",
+    "ping_host": "str",
+    "loglevel": "str"
+  }
+}
